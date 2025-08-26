@@ -1,48 +1,73 @@
-1. Project Description
-A console-based Java application to manage library operations like adding, searching, issuing, and returning books. It reduces manual work and maintains member and book records efficiently.
-2. Features
-User Management: Add, update, remove members.
-Book Management: Add, search, update, delete books.
-Issue/Return: Track issued books and calculate fines.
-Reports: View available, issued, or overdue books.
-Authentication: Simple Admin/User login.
-3. Technology Used
-Language: Java (Core Java)
-Storage: File handling (.txt files); database upgrade later (MySQL/MongoDB)
-IDE: IntelliJ/Eclipse/VS Code
-4. Future Enhancements
-GUI using JavaFX/Swing
-mongoDB
-Database integration
-Role-based access
-Fine calculation automation
-Barcode/QR scanning for books
+# **Smart Library Management System (Console-Based Java Project)**
 
+## **1. Project Description**
+The **Smart Library Management System** is a console-based Java application designed to manage library operations such as adding books, issuing/returning books, and maintaining member records. It reduces manual work and helps organize library data efficiently.
+
+---
+
+## **2. Features**
+- **User Management:** Add, update, or remove members.  
+- **Book Management:** Add, search, update, or delete books.  
+- **Issue/Return:** Track issued books and calculate fines.  
+- **Reports:** View available, issued, or overdue books.  
+- **Authentication:** Simple Admin/User login system.  
+
+---
+
+## **3. Technology Used**
+- **Language:** Java (Core Java)  
+- **Storage:** File handling using `.txt` files (future upgrade to MySQL/MongoDB)  
+- **IDE:** IntelliJ IDEA / Eclipse / VS Code  
+
+---
+
+## **4. OOP Concepts Used**
+1. **Encapsulation**  
+   - Private fields in `Book` and `Member` classes with getter/setter methods.  
+
+2. **Abstraction**  
+   - Abstract class or interface `LibraryOperations` (addBook(), issueBook(), returnBook()).  
+
+3. **Inheritance**  
+   - Base class `User` → derived classes like `Student` or `Faculty`.  
+
+4. **Polymorphism**  
+   - Method overloading (e.g., `searchBook()` by title or ISBN).  
+   - Method overriding if user types override privileges.  
+
+---
+
+## **5. Future Enhancements**
+- GUI using JavaFX or Swing  
+- Database integration for persistent storage  
+- Role-based access control (Admin, Librarian, Student)  
+- Automatic fine calculation and notifications  
+- Barcode/QR scanning for faster book issue/return  
+
+---
+
+## **6. Project Structure**
 SmartLibraryManagementSystem/
 │
 ├── src/
-│   ├── Main.java                // Entry point of the program
-│   ├── model/
-│   │   ├── Book.java            // Book class (POJO)
-│   │   ├── Member.java          // Member class (POJO)
-│   │
-│   ├── service/
-│   │   ├── LibraryService.java  // Core logic: add/search/issue/return books
-│   │
-│   ├── util/
-│   │   ├── FileHandler.java     // For saving/loading data from files
-│   │   ├── InputHelper.java     // For console input validation
-│   │
-│   ├── menu/
-│       ├── LibraryMenu.java     // Menu system for console operations
+│ ├── Main.java
+│ ├── model/
+│ │ ├── Book.java
+│ │ └── Member.java
+│ ├── service/
+│ │ └── LibraryService.java
+│ ├── util/
+│ │ ├── FileHandler.java
+│ │ └── InputHelper.java
+│ └── menu/
+│ └── LibraryMenu.java
 │
 ├── data/
-│   ├── books.txt                // Stores book records
-│   ├── members.txt              // Stores member records
-│   ├── issued_books.txt         // Stores issue records
-│
-├── README.md                    // Project documentation
-└── SmartLibraryManagementSystem.iml (if using IntelliJ)
+│ ├── books.txt
+│ ├── members.txt
+│ └── issued_books.txt
+└── README.md
+
 6. Project Structure Diagram
 Here’s a console-based architecture diagram:
             +-------------------------+
