@@ -1,0 +1,14 @@
+M001,John Doe,john.doe@email.com,555-1234,premium,2024-01-15,10
+M002,Sarah Smith,sarah.smith@email.com,555-5678,regular,2024-02-10,5
+M003,Mike Jones,mike.jones@email.com,555-9012,premium,2024-01-20,10
+M004,Emily Wilson,emily.wilson@email.com,555-3456,regular,2024-03-05,5
+M005,David Brown,david.brown@email.com,555-7890,premium,2024-02-15,10
+M006,Lisa Taylor,lisa.taylor@email.com,555-2345,regular,2024-01-30,5
+M007,Robert Clark,robert.clark@email.com,555-6789,regular,2024-03-12,5
+M008,Amanda Lee,amanda.lee@email.com,555-0123,premium,2024-02-28,10
+M009,James Wilson,james.wilson@email.com,555-4567,regular,2024-03-18,5
+M010,Jennifer Davis,jennifer.davis@email.com,555-8901,premium,2024-01-10,10
+M011,KANHAIYA,kanhaiya@gmail.com,92374932388,premium,2025-09-05,10
+M123,Knahiaya,kanhaiay@gmail.com,903728483423,premium,2025-09-05,10
+M0012,sagar,sagar@gmail.coom,9832323232,premium,2025-09-05,10
+M0013,ranjit,ranjit@gmail.com,982637256352,premium,2025-09-05,10

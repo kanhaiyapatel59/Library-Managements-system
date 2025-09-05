@@ -1,0 +1,4 @@
+M001,John Doe,john@email.com,555-1234,premium,2025-09-05,10
+M002,Jane Smith,jane@email.com,555-5678,regular,2025-09-05,5
+M003,Bob Johnson,bob@email.com,555-9012,regular,2025-09-05,5
+M004,Kanhaiya,KAnhaiyapatel383@gmail.com,91635463242,premium,2025-09-05,10

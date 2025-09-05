@@ -1,0 +1,11 @@
+admin,admin123,administrator
+librarian,lib123,librarian
+john_doe,password123,member
+sarah_smith,pass456,member
+mike_jones,secret789,member
+emily_wilson,emily2024,member
+david_brown,david123,member
+lisa_taylor,lisa456,member
+robert_clark,robert789,member
+amanda_lee,amanda123,member
+kanhaiya patel,patel123,member

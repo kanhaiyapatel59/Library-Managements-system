@@ -1,0 +1,22 @@
+978-0134685991,Effective Java,Joshua Bloch,Programming,2018,5,2
+978-0201633610,Design Patterns,Erich Gamma,Programming,1994,3,1
+978-0596007126,Head First Java,Kathy Sierra,Programming,2005,7,3
+978-0061120084,To Kill a Mockingbird,Harper Lee,Fiction,1960,4,0
+978-0451524935,1984,George Orwell,Fiction,1949,6,2
+978-0141439518,Pride and Prejudice,Jane Austen,Classic,1813,5,1
+978-0439023481,The Hunger Games,Suzanne Collins,Fiction,2008,6,4
+978-0545010221,Harry Potter and the Deathly Hallows,J.K. Rowling,Fantasy,2007,8,5
+978-0743273565,The Great Gatsby,F. Scott Fitzgerald,Classic,1925,4,1
+978-0316769174,The Catcher in the Rye,J.D. Salinger,Fiction,1951,3,2
+978-0385472579,Things Fall Apart,Chinua Achebe,Fiction,1958,4,1
+978-0060850524,The Alchemist,Paulo Coelho,Fiction,1988,7,3
+978-1400033416,The Kite Runner,Khaled Hosseini,Fiction,2003,5,2
+978-0547928227,The Hobbit,J.R.R. Tolkien,Fantasy,1937,6,4
+978-0451169532,The Shining,Stephen King,Horror,1977,4,2
+978-0143105435,Frankenstein,Mary Shelley,Horror,1818,3,1
+978-0140449266,Crime and Punishment,Fyodor Dostoevsky,Classic,1866,3,0
+978-0141439600,Wuthering Heights,Emily Brontë,Classic,1847,4,1
+978-0143105428,Dracula,Bram Stoker,Horror,1897,5,2
+978-0062315007,The Martian,Andy Weir,Science Fiction,2014,6,3
+M12,JAVA,DR oracle,CSE,1950,500,1
+213,ksljahda,sdsa,12,123,23,0
