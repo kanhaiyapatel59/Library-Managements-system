@@ -74,24 +74,29 @@ SmartLibraryManagementSystem/
 
 
 6. Project Structure Diagram
-Here’s a console-based architecture diagram:
-            +-------------------------+
-            |       Main.java         |
-            +-----------+-------------+
-                        |
-                        v
-            +-----------+-------------+
-            |       LibraryMenu        |
-            +-----------+-------------+
-                        |
-          +-------------+-------------+
-          |                           |
-          v                           v
-+-------------------+        +-------------------+
-|   LibraryService   |        |    FileHandler     |
-+---------+---------+        +---------+---------+
-          |                           |
-          v                           v
-+-------------------+        +-------------------+
-|       Book         |        |     Member         |
-+-------------------+        +-------------------+
+
+                 +-----------------------------+
+                 |   Smart Library System      |
+                 +-----------------------------+
+                          /         \
+                         /           \
+                     (Admin)       (Librarian)
+                         |             |
+   -------------------------------------------------------
+   |                        |                            |
+[Manage Books]       [Issue/Return Books]        [Generate Reports]
+[Manage Users]       [Maintain Inventory]        [View Records]
+
+                           |
+                         (Member)
+                           |
+            --------------------------------
+            |                              |
+      [Search Books]                [Borrow/Return Books]
+      [View Account]                [Pay Fine]
+            |
+       (System)
+            |
+      [Send Notifications]
+      [Maintain Database]
+
